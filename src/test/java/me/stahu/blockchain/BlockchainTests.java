@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BlockchainTest {
+class BlockchainTests {
 
     private Blockchain blockchain;
 
