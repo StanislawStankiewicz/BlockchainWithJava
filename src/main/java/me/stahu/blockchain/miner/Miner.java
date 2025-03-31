@@ -33,7 +33,7 @@ public class Miner implements Runnable {
         }
     }
 
-    public BlockSubmission mineBlock(int difficulty, long id, String previousHash) {
+    BlockSubmission mineBlock(int difficulty, long id, String previousHash) {
         String prefix = "0".repeat(difficulty);
         long magicNumber;
         String hash;
