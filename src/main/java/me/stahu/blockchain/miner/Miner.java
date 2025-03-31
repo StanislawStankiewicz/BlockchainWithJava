@@ -1,6 +1,9 @@
-package me.stahu.blockchain;
+package me.stahu.blockchain.miner;
 
-import static me.stahu.blockchain.Utility.calculateHash;
+import me.stahu.blockchain.core.Blockchain;
+import me.stahu.blockchain.network.BlockSubmission;
+
+import static me.stahu.blockchain.utility.Utility.calculateHash;
 
 public class Miner implements Runnable {
 

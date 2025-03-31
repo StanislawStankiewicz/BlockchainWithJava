@@ -1,5 +1,7 @@
-package me.stahu.blockchain;
+package me.stahu.blockchain.core;
 
+import me.stahu.blockchain.network.BlockSubmission;
+import me.stahu.blockchain.utility.Utility;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

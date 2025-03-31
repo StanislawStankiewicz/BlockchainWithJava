@@ -1,4 +1,6 @@
-package me.stahu.blockchain;
+package me.stahu.blockchain.core;
+
+import me.stahu.blockchain.network.BlockSubmission;
 
 import java.time.Duration;
 import java.util.ArrayList;

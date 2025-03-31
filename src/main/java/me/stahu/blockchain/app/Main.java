@@ -1,9 +1,11 @@
-package me.stahu.blockchain;
+package me.stahu.blockchain.app;
+
+import me.stahu.blockchain.core.Blockchain;
+import me.stahu.blockchain.miner.Miner;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 
 public class Main {
     private static final int NUM_MINERS = 20;

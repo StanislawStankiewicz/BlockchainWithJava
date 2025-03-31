@@ -1,4 +1,4 @@
-package me.stahu.blockchain;
+package me.stahu.blockchain.utility;
 
 import java.security.MessageDigest;
 
